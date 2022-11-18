@@ -8,5 +8,6 @@
         public string Categoria { get; set; }
         public string? Foto { get; set; }
         public int IdConta { get; set; }
+        public virtual Conta conta { get; set; }
     }
 }

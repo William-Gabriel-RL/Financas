@@ -7,5 +7,6 @@ namespace EntityLayer.Models
         public bool Pago { get; set; } = false;
         public DateTime Vencimento { get; set; }
         public int? IdCartaoDeCredito { get; set; }
+        public virtual CartaoDeCredito? CartaoDeCredito { get; set; }
     }
 }

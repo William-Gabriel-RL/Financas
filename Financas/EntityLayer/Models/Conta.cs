@@ -8,5 +8,7 @@ namespace EntityLayer.Models
         public string? Banco { get; set; }
         public string Tipo { get; set; }
         public decimal Saldo { get; set; } = 0M;
+        public int IdUsuario { get; set; }
+        public virtual Usuario Usuario { get; set; }
     }
 }
