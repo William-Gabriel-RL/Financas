@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
     <ProjectReference Include="..\RepoLayer\RepoLayer.csproj" />
   </ItemGroup>
